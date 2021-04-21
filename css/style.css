@@ -1,3 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: whitesmoke;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+}
+
+header {
+  margin: 0rem 2.8rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+  align-items: center;
+  width: auto;
+}
+
+nav h1 {
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 1rem;
+  margin: 0.8rem;
+  font-size: 1.7rem;
+  color: black;
+}
+
+.showcase .carousel img {
+  margin: 0.5rem 0rem;
+  width: 100%;
+  height: max-content;
+  /* height: 43rem; */
+}
+
+.discription {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 4rem;
+  width: auto;
+}
+
+.discription .container {
+  display: flex;
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.discription .container .container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 5.5rem;
+}
+
+.container-content img {
+  width: 8rem;
+  height: 8rem;
+  margin: 1rem;
+}
+
+.container-content h2 {
+  margin: 1rem;
+  font-size: 1.4rem;
+}
+
+.container-content p {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  margin-top: 4rem;
+  width: auto;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0.7rem;
 }
